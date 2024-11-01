@@ -6,31 +6,50 @@ appDex: document.getElementById('App')
 
     },
     data: {
-        rizzler: {
+        wildCreatures: [
+            {
             name: 'The Rizzler',
             level: 69,
             health: 42069,
-            img: "IMG/ememem.jpg"
+            img: "IMG/ememem.jpg",
         },
-        biden: {
+         {
             name: 'Blasting Biden',
             level: 81,
             health: 1942,
-            img: "IMG/Biden.jpg"
+            img: "IMG/Biden.jpg",
         },
-        car: {
+         {
             name: 'car',
             level: 47,
             health: 7070,
-            img: "IMG/car.jpg"
+            img: "IMG/car.jpg",
         },
-        freak: {
+         {
             name: 'Limitless Freak',
             level: 999999,
             health: 999999,
-            img: "IMG/gojo.jpg"
-        }
-    }
+            img: "IMG/gojo.jpg",
+        },
+        {
+            name: 'The Throngler',
+            level: 34,
+            health: 6969,
+            img: "IMG/guh.jpg",
+        },
+        {
+            name: 'Cake Man Warrior',
+            level: 99,
+            health: 10000,
+            img: "IMG/cakeman.jpg",
+        },
+        {
+            name: 'crispy cripple',
+            level: 2,
+            health: 5,
+            img: "IMG/kwispy.jpg",
+        },
+    ]
 }
 
 
@@ -59,4 +78,4 @@ appDex: document.getElementById('App')
 
 
 
-
+}
