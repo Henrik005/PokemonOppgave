@@ -49,7 +49,8 @@ appDex: document.getElementById('App')
             health: 5,
             img: "IMG/kwispy.jpg",
         },
-    ]
+    ],
+    capturedCreatures: [],
 }
 
 
