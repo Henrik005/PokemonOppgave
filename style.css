@@ -1,23 +1,32 @@
-img {
+img 
+{
     width: 300px;
     height: 300px
 }
-button {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    
-    justify-content: center;
-    width: 800px;
-    font-size: 20px;
 
+.MainButtons 
+{
+    width: 100%;
+    font-size: 30px;
 }
-div.Buttons{
+div.MainButtonsBox
+{
     display: flex;
-    }
-div.PokemonDis{
+}
+
+div.PokemonDis
+{
    display: flex;
    align-items: center;
    align-content: center;
    justify-content: center;
+}
+
+div.CaptureScrDiv
+{ /*Work in Progress... please look away, Rebecka...*/
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;   
 }

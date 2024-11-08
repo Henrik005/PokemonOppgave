@@ -1,9 +1,10 @@
 const model = {
     app: {
-appDex: document.getElementById('App')
-    },
+    appDex: document.getElementById('App'),
+    html: ""
+},
     input: {
-
+        randomEncounter: "",
     },
     data: {
         wildCreatures: [
