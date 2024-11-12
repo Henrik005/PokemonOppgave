@@ -38,6 +38,7 @@ function yourPokemon()
       html += /*HTML*/
       `
       <div>
+      <button onclick="displayRandomEncounter()">Find Another</button> <button>Your Pokemon</button>
       <h2>${model.data.capturedCreatures[i].name}</h2>
       <img src="${model.data.capturedCreatures[i].img}">
       <p>Level: <b>${model.data.capturedCreatures[i].level}</b></p>
@@ -46,7 +47,8 @@ function yourPokemon()
       `
    }
     model.app.html = html;
-    updateView();
+    model.app.appDex.innerHTML = html;
+    
 }
 //I know that TRADITIONALY, different screens should be different views with their own files...but...i'm tired right now, bite me.
 //Oh and i'm trying to style this to look SOMEWHAT presentable, and it just DOESN'T. DO. WHAT. I. WANT!!!...CSS robs me of the will to live c:
@@ -68,13 +70,6 @@ function captureScreen()
    }
 }
 
-//This one i began on, but kinda fell out of focus with the whole CSS fiasco, might try to get it working in the weekend
-function caughtPokemonScreen()
-{
-   model.app.appDex = /*HTML*/
-   `
 
-   `
-}
 
 
